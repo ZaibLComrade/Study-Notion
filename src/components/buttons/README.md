@@ -1,6 +1,6 @@
 <h1>Buttons Preview</h1>
 
-<h2>Primary Buttons</h2>
+<h2>Primary Button</h2>
 <code>type="primary"</code>
 <p align="center">
     <img src="./images/button_primary.png"/>
