@@ -10,7 +10,13 @@ export default {
 			colors: {
 				"pure-grey-5": "#F9F9F9",
 				"rich-black-5": "#F1F2FF",
+				"rich-black-50": "#C5C7D4",
+				"rich-black-100": "#AFB2BF",
 				"rich-black-200": "#999DAA",
+				"rich-black-300": "#838894",
+				"rich-black-400": "#6E727F",
+				"rich-black-500": "#585D69",
+				"rich-black-600": "#424854",
 				"rich-black-700": "#2C333F",
 				"rich-black-800": "#161D29",
 				"rich-black-900": "#000814",
