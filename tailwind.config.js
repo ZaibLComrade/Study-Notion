@@ -23,6 +23,7 @@ export default {
 				"yellow-50": "#FFD60A",
 				"yellow-100": "#E7C009",
 				"blue-100": "#47A5C5",
+				"pink-200": "#EF476F",
 			},
 			fontFamily: {
 				"edu": ["Edu SA Beginner", "cursive"],
