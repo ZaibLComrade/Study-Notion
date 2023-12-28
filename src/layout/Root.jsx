@@ -1,12 +1,10 @@
 import {Outlet} from "react-router-dom";
-import Navbar from "./Home/Navbar";
-import Footer from "../components/footer/Footer";
+import Navbar from "../components/navbar/Navbar";
 
 
 export default function Root() {
-	return <div>
+	return <div className="font-inter">
 		<Navbar/>
 		<Outlet/>
-		<Footer/>
 	</div>
 }

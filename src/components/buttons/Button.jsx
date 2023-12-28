@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export default function Button({ type, text, clickFn }) {
+export default function Button({ type, text, paddingX, paddingY, clickFn }) {
 	const common_btn_classes = "space-x-2 p-3 rounded-lg"
 	
 	// Note: Primary button has the color of accent
@@ -13,6 +13,12 @@ export default function Button({ type, text, clickFn }) {
 	return <button 
 		onClick={ clickFn }
 		className={`${common_btn_classes} ${btnTypeStyle}`}
+		style={{
+			paddingLeft: paddingX,
+			paddingRight: paddingX,
+			paddingTop: paddingY,
+			paddingBottom: paddingY,
+		}}
 	>
 		{ text }
 	</button>
@@ -21,5 +27,7 @@ export default function Button({ type, text, clickFn }) {
 Button.propTypes = {
 	text: PropTypes.string.isRequired,
 	type: PropTypes.string.isRequired,
+	paddingX: PropTypes.number,
+	paddingY: PropTypes.number,
 	clickFn: PropTypes.func,
 }

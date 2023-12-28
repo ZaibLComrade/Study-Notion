@@ -23,10 +23,10 @@ export default function Footer() {
 		career,
 	} = links
 	
-	return <footer className="px-32 border border-b-0 border-x-0 bg-rich-black-800 font-inter py-14 border-t-rich-black-600">
-		<div className="flex">
+	return <footer className="px-32 border-t border-b-0 border-x-0 bg-rich-black-800 font-inter py-14 border-t-rich-black-600">
+		<div className="flex justify-between">
 			{/* Main Footer Content */}
-			<div className="grid grid-cols-3 gap-x-3">
+			<div className="grid grid-cols-3 grow gap-x-3">
 				{/* Col 1 */}
 				<div className="space-y-3">
 					<Logo type="dark"/>
@@ -52,10 +52,10 @@ export default function Footer() {
 				</div>
 			</div>
 			
-			<div className="divider divider-horizontal h-[500px]"></div>
+			<div className="divider divider-horizontal"></div>
 			
 			{/* Courses */}
-			<div className="grid grid-cols-3 gap-x-3">
+			<div className="grid grid-cols-3 grow gap-x-3">
 				{/* Col 1 */}
 				<FooterColumn title="Subjects" listArr={ subjects }/>
 				
