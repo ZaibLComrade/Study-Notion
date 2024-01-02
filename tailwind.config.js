@@ -28,6 +28,7 @@ export default {
 			},
 			backgroundImage: {
 				"gradient-skyblue": "linear-gradient(118deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%)",
+				"gradient-3": "linear-gradient(118deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%)"
 			},
 			fontFamily: {
 				"edu": ["Edu SA Beginner", "cursive"],
@@ -36,6 +37,7 @@ export default {
 			boxShadow: {
 				"primary-btn": "-0.5px -1.5px 0px 0px rgba(0, 0, 0, 0.12) inset",
 				"primary-focus": "0px 0px 1px 3px rgba(255, 214, 10, 0.15)",
+				"video-white": "20px 20px 0px 0px #F5F5F5",
 			}
 		},
 	},
