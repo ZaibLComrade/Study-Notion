@@ -28,7 +28,7 @@ export default function Banner() {
 				<div>
 					<h1 className="text-4xl text-rich-black-5 font-semibold leading-[44px] tracking-[-0.72px]">
 						Empower Your Future with{" "}
-						<span className="text-transparent bg-gradient-skyblue bg-clip-text">
+						<span className="text-transparent bg-gradient-5 bg-clip-text">
 							Coding Skills
 						</span>
 					</h1>

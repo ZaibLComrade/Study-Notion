@@ -23,16 +23,22 @@ export default {
 				"rich-black-900": "#000814",
 				"yellow-50": "#FFD60A",
 				"yellow-100": "#E7C009",
+				"brown-100": "#E7BC5B",
 				"blue-100": "#47A5C5",
+				"pink-100": "#F37290",
 				"pink-200": "#EF476F",
+				"pink-300": "#D43D63",
 			},
 			backgroundImage: {
-				"gradient-skyblue": "linear-gradient(118deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%)",
-				"gradient-3": "linear-gradient(118deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%)"
+				"code": "linear-gradient(112deg, rgba(14, 26, 45, 0.24) -1.4%, rgba(17, 30, 50, 0.38) 104.96%)",
+				"gradient-2": "linear-gradient(124deg, #8A2BE2 -6.46%, #FFA500 59.04%, #F8F8FF 124.53%)",
+				"gradient-3": "linear-gradient(118deg, #9CECFB -9.12%, #65C7F7 48.59%, #0052D4 106.3%)",
+				"gradient-5": "linear-gradient(118deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%)",
 			},
 			fontFamily: {
 				"edu": ["Edu SA Beginner", "cursive"],
 				"inter": ["Inter", "sans serif"],
+				"roboto": ["Roboto Mono", "monospace"],
 			},
 			boxShadow: {
 				"primary-btn": "-0.5px -1.5px 0px 0px rgba(0, 0, 0, 0.12) inset",
