@@ -26,6 +26,9 @@ export default {
 				"blue-100": "#47A5C5",
 				"pink-200": "#EF476F",
 			},
+			backgroundImage: {
+				"gradient-skyblue": "linear-gradient(118deg, #1FA2FF -3.62%, #12D8FA 50.44%, #A6FFCB 104.51%)",
+			},
 			fontFamily: {
 				"edu": ["Edu SA Beginner", "cursive"],
 				"inter": ["Inter", "sans serif"],
